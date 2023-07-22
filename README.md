@@ -15,17 +15,31 @@
 
 ## Introduction
 
+![Modelo Cinematico](Modelo_cinematico.svg)
 
-
-## Installation
-
-[The NPCxTest Solution is a project aimed at resolving the problems presented in the Test Dev.pdf document. The main goal is to characterize the movement of a 2 DoF link skeleton using different coordinate systems and virtual markers.
+The NPCxTest Solution is a project aimed at resolving the problems presented in the Test Dev.pdf document. The main goal is to characterize the movement of a 2 DoF link skeleton using different coordinate systems and virtual markers.
 
 The project includes the following key components:
 
 Calculation of the homogeneous matrix for a 2 DoF link skeleton using Matlab in the NPCxTest_TCD folder.
 Implementation of the solution code in C++ using Visual Studio 2022 and OpenGL for animation.
-Utilization of the Eigen library for optimized matrix calculations.]
+Utilization of the Eigen library for optimized matrix calculations.
+
+## Installation
+
+To run the project, follow these steps:
+
+Clone the repository to your local machine using the command:
+
+
+git clone https://github.com/[username]/[repository-name].git
+
+
+Open the project in Visual Studio 2022.
+
+Make sure to have all the required dependencies installed, including OpenGL, GLFW, and the Eigen library.
+
+Build and compile the project in Visual Studio.
 
 ## Usage
 
